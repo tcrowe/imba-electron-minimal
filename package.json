@@ -1,0 +1,39 @@
+{
+  "name": "imba-electron-minimal",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Tony Crowe <npm@tonycrowe.com> (https://github.com/tcrowe)",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/tcrowe/imba-electron-minimal#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tcrowe/imba-electron-minimal.git"
+  },
+  "keywords": [
+    "imba",
+    "electron",
+    "starter"
+  ],
+  "bugs": {
+    "url": "https://github.com/tcrowe/imba-electron-minimal/issues"
+  },
+  "main": "src/main.js",
+  "dependencies": {
+    "electron": "^4.1.0",
+    "imba": "^1.4.2",
+    "imba-router": "^0.2.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "webpack",
+    "show": "electron ."
+  }
+}

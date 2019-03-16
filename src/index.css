@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+#top-nav {
+  background-color: rgba(0, 50, 100, 0.1);
+  padding: 0.3rem 0.6rem;
+}
+
+#top-nav a {
+  margin-right: 0.6rem;
+}
+
+#content {
+  padding: 1rem;
+}
