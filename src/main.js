@@ -13,7 +13,7 @@ function createWindow() {
     width: 1100,
     height: 600,
     center: true,
-    title: "Youreadfor.me",
+    title: "imba electron minimal",
     webPreferences: {
       nodeIntegration: true,
       webSecurity: false
